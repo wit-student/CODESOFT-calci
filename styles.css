@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height:100vh;
+    width:100vw;
+    background-color: #f1e9e9;
+}
+.calci{
+    background-color:rgb(27, 21, 21);
+    width:350px;
+    height:470px;
+    border-radius: 12px;
+    padding:18px;
+}
+.calci  input{
+    border-radius: 12px;
+    width:55px;
+    height:55px;
+    font-size: 18px;
+    margin:8px;
+
+}
+
+form .enter{
+    display: flex;
+    justify-content: flex-start;
+}
+form .enter input{
+    text-align: right;
+    font-size: 35px;
+    height: 80px;
+flex:1;
+}
+
